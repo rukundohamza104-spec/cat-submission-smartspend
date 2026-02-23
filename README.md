@@ -1,3 +1,7 @@
+regNo:25RP01865
+names:RUKUNDO Amza
+CAT theory
+
 SmartSpend – Expense Tracker App
 
 SmartSpend is a desktop-based expense tracking web application designed to help students and young workers manage their daily spending, monitor their balance, and develop better financial habits.
