@@ -79,11 +79,14 @@ Settings options
 
 Logout option
 
-5. Help Page
+##screenshoots
+welcome page<img width="1366" height="618" alt="spl" src="https://github.com/user-attachments/assets/141d41ea-e1bb-4ac5-9b20-04c5ec18ad28" />
+login page<img width="1366" height="615" alt="a" src="https://github.com/user-attachments/assets/998cdb04-04c7-4de3-ae8a-78e2f853ac2b" />
+dashboard<img width="1366" height="611" alt="m" src="https://github.com/user-attachments/assets/b2621884-4191-4d2f-9acc-f71182f8fc32" />
+report<img width="1366" height="612" alt="s" src="https://github.com/user-attachments/assets/e79d7309-b365-4b69-80d9-b2211fceb4d4" />
+smartspend<img width="1366" height="603" alt="z" src="https://github.com/user-attachments/assets/b6199cfb-e0a3-421a-b738-47b9e053b2ec" />
+user profile<img width="1366" height="616" alt="l" src="https://github.com/user-attachments/assets/673321c4-f95f-4482-b906-d7519b3ad5b8" />
 
-Explains how to use the system
-
-Guides new users
 
 🖥️ Technology Stack
 
