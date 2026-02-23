@@ -1,0 +1,188 @@
+SmartSpend – Expense Tracker App
+
+SmartSpend is a desktop-based expense tracking web application designed to help students and young workers manage their daily spending, monitor their balance, and develop better financial habits.
+
+📌 Problem Statement
+
+Many students struggle to track daily expenses and savings. Small daily spending on food, transport, internet bundles, and entertainment often goes unnoticed, leading to:
+
+Overspending
+
+Poor budgeting
+
+Lack of savings
+
+Financial stress at the end of the month
+
+Young workers also face similar challenges when managing entry-level salaries without structured financial planning tools.
+
+SmartSpend solves this problem by providing a simple, organized, and easy-to-use expense tracking system.
+
+🎯 Target Users
+
+SmartSpend is designed for:
+
+Students
+
+Young workers
+
+Age group: 18–30 years
+
+User Characteristics
+
+Limited monthly income or allowance
+
+Frequent small daily expenses
+
+Minimal financial planning experience
+
+Prefer simple and clean user interfaces
+
+Need quick data entry and instant financial overview
+
+🚀 Features
+1. Dashboard Overview
+
+Displays total balance
+
+Shows today's expenses
+
+Shows monthly expense summary
+
+Clean card-based layout
+
+2. Add Expense
+
+Enter amount (RWF)
+
+Select category (Food, Transport, School, etc.)
+
+Choose date
+
+Add optional note
+
+Save expense
+
+3. Expense History
+
+View all recorded expenses
+
+Organized in card format
+
+Shows category, amount, and date
+
+4. Profile Page
+
+User information
+
+Settings options
+
+Logout option
+
+5. Help Page
+
+Explains how to use the system
+
+Guides new users
+
+🖥️ Technology Stack
+
+SmartSpend is built using:
+
+HTML5 – Structure
+
+Tailwind CSS – Styling and layout
+
+Heroicons – SVG icons
+
+Flexbox & Grid – Layout system
+
+🎨 Design System
+Colors
+
+Primary: #2563EB (Blue)
+
+Background: White
+
+Text: #111827 (Dark Gray)
+
+Typography
+
+Font: Inter or Poppins
+
+Headings: Bold
+
+Body: Regular
+
+UI Features
+
+Smooth transitions
+
+Hover animations
+
+Active navigation states
+
+Clean spacing and hierarchy
+
+📂 Project Structure
+smartspend/
+│
+├── index.html            (Dashboard)
+├── add-expense.html      (Add Expense Page)
+├── history.html          (Expense History Page)
+├── profile.html          (Profile Page)
+├── help.html             (Help Page)
+└── README.md
+
+Tailwind CSS is loaded via CDN in each file.
+
+🔄 Navigation Flow
+
+Dashboard → Add Expense
+
+Add Expense → Save → Dashboard
+
+Dashboard → Expense History
+
+Dashboard → Profile
+
+Sidebar → Help
+
+Active navigation is handled by adding special styling classes in each page.
+
+💡 Benefits
+For Students
+
+Better allowance management
+
+Improved saving habits
+
+Reduced financial stress
+
+Increased financial awareness
+
+For Young Workers
+
+Monthly expense monitoring
+
+Budget control
+
+Better financial decision-making
+
+🔮 Future Improvements
+
+Database integration
+
+User authentication
+
+Expense charts and analytics
+
+Savings goal tracking
+
+Mobile version
+
+Export to PDF/Excel
+
+📈 Project Purpose
+
+SmartSpend promotes financial responsibility, budgeting discipline, and smart money management habits among young adults.

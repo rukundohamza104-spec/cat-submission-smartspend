@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Add Expense - SmartSpend</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+<div class="flex min-h-screen">
+
+  <!-- Sidebar -->
+  <aside class="w-64 bg-white shadow-lg p-6">
+    <h2 class="text-2xl font-bold text-blue-600 mb-8">SmartSpend</h2>
+
+    <nav class="space-y-4">
+      <a href="dashboard.html" class="block text-gray-600 hover:text-blue-600 transition">📊 Dashboard</a>
+      <a href="reports.html" class="block text-gray-600 hover:text-blue-600 transition">📈 Reports</a>
+      <a href="add-expense.html" class="block text-blue-600 font-semibold">➕ Add Expense</a>
+      <a href="profile.html" class="block text-gray-600 hover:text-blue-600 transition">⚙️ Profile</a>
+    </nav>
+  </aside>
+
+  <!-- Content -->
+  <main class="flex-1 p-10">
+    <h1 class="text-3xl font-bold mb-8">Add New Expense</h1>
+
+    <div class="bg-white p-8 rounded-xl shadow w-2/3">
+
+      <div class="mb-6">
+        <label class="block mb-2 font-semibold">Amount</label>
+        <input type="number" class="w-full border p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition">
+      </div>
+
+      <div class="mb-6">
+        <label class="block mb-2 font-semibold">Category</label>
+        <select class="w-full border p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition">
+          <option>Food</option>
+          <option>Transport</option>
+          <option>Shopping</option>
+        </select>
+      </div>
+
+      <div class="mb-6">
+        <label class="block mb-2 font-semibold">Date</label>
+        <input type="date" class="w-full border p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition">
+      </div>
+
+      <button class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition duration-300">
+        Save Expense
+      </button>
+
+    </div>
+  </main>
+
+</div>
+</body>
+</html>

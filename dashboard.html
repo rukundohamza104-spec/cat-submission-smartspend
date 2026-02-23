@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard - SmartSpend</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100">
+
+<div class="flex min-h-screen">
+
+  <!-- Sidebar -->
+  <aside class="w-64 bg-white shadow-lg p-6">
+    <h2 class="text-2xl font-bold text-blue-600 mb-10">SmartSpend</h2>
+
+    <nav class="space-y-6">
+
+      <a href="dashboard.html"
+         class="flex items-center space-x-3 text-blue-600 font-semibold">
+        <span>📊</span>
+        <span>Dashboard</span>
+      </a>
+
+      <a href="reports.html"
+         class="flex items-center space-x-3 text-gray-600 hover:text-blue-600 transition">
+        <span>📈</span>
+        <span>Reports</span>
+      </a>
+
+      <a href="add-expense.html"
+         class="flex items-center space-x-3 text-gray-600 hover:text-blue-600 transition">
+        <span>➕</span>
+        <span>Add Expense</span>
+      </a>
+
+      <a href="profile.html"
+         class="flex items-center space-x-3 text-gray-600 hover:text-blue-600 transition">
+        <span>⚙️</span>
+        <span>Profile</span>
+      </a>
+
+    </nav>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="flex-1 p-10">
+
+    <h1 class="text-4xl font-bold mb-8">Dashboard</h1>
+
+    <div class="grid grid-cols-3 gap-6">
+
+      <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+        <p class="text-gray-500">Total Balance</p>
+        <h2 class="text-2xl font-bold">RWF 120,000</h2>
+      </div>
+
+      <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+        <p class="text-gray-500">Today Expense</p>
+        <h2 class="text-2xl font-bold">RWF 5,200</h2>
+      </div>
+
+      <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+        <p class="text-gray-500">Monthly Expense</p>
+        <h2 class="text-2xl font-bold">RWF 45,000</h2>
+      </div>
+
+    </div>
+
+  </main>
+
+</div>
+
+</body>
+</html>

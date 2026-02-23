@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Profile - SmartSpend</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+<div class="flex min-h-screen">
+
+  <!-- Sidebar -->
+  <aside class="w-64 bg-white shadow-lg p-6">
+    <h2 class="text-2xl font-bold text-blue-600 mb-8">SmartSpend</h2>
+
+    <nav class="space-y-4">
+      <a href="dashboard.html" class="block text-gray-600 hover:text-blue-600 transition">📊 Dashboard</a>
+      <a href="reports.html" class="block text-gray-600 hover:text-blue-600 transition">📈 Reports</a>
+      <a href="add-expense.html" class="block text-gray-600 hover:text-blue-600 transition">➕ Add Expense</a>
+      <a href="profile.html" class="block text-blue-600 font-semibold">⚙️ Profile</a>
+    </nav>
+  </aside>
+
+  <!-- Main -->
+  <main class="flex-1 p-10">
+    <h1 class="text-3xl font-bold mb-8">User Profile</h1>
+
+    <div class="bg-white p-8 rounded-xl shadow w-2/3">
+
+      <div class="mb-6">
+        <label class="block mb-2 font-semibold">Full Name</label>
+        <input type="text" placeholder="Amza rukundo" class="w-full border p-3 rounded-lg">
+      </div>
+
+      <div class="mb-6">
+        <label class="block mb-2 font-semibold">Email</label>
+        <input type="email" placeholder="amzarukundo@email.com" class="w-full border p-3 rounded-lg">
+      </div>
+
+      <button class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition duration-300">
+        Update Profile
+      </button>
+      <button class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition duration-300" ><a href="login.html">logout</a>
+      </button>
+    </div>
+  </main>
+
+</div>
+</body>
+</html>
